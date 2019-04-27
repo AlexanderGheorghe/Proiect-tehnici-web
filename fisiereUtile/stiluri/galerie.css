@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	text-align: center;
+}
+figure {
+	display: inline-block;
+	width: 35%;
+	margin: 5%;
+}
+figure:hover {
+	width: 45%;
+	margin: 0px;
+}
+figcaption {
+	text-align: center;
+	background-color: rgba(208,207,207,1.00);
+	font-family: montserrat, sans-serif;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: white;
+}
+figure img {
+	width: 100%;
+	vertical-align: top;
+}
+#dropdown {
+	padding: 0 2% 0 0;
+	background-color: rgba(208,207,207,1.00);
+	color: white;
+	font-family: montserrat, sans-serif;
+	display: table;
+	margin: 0 auto;
+}
+#dropdown h3 {
+	text-align: center;
+}
+#dropdown ul {
+	list-style-type: none;
+}
+#dropdown ul li ul {
+	visibility: hidden;
+}
+#dropdown ul li ul li {
+	margin: 12px;
+}
+#dropdown:hover ul li ul {
+	visibility: visible;
+}
+#dropdown>ul>li{
+	display: inline-block;
+	vertical-align: top;
+}
+@media screen and (max-width:769px) {
+	figure {
+		width: 80%;
+		margin: 5%;
+	}
+	figure:hover {
+		width: 90%;
+		margin: 0px;
+	}
+}

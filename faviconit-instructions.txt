@@ -1,0 +1,25 @@
+thanks for using faviconit!
+copy the files to your site and add this code inside the HTML <HEAD> tag:
+
+	<!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="/mario.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/mario.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="/mario-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="/mario-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/mario-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/mario-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/mario-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/mario-16.png">
+	<link rel="apple-touch-icon" href="/mario-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/mario-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/mario-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/mario-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/mario-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/mario-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/mario-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/mario-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/mario-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="/mario-144.png">
+	<meta name="msapplication-config" content="/browserconfig.xml">
+	<!-- ****** faviconit.com favicons ****** -->

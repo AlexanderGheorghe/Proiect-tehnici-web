@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+button {
+	border-radius: 10px;
+}
+form {
+	padding: 5%;
+	display: flex;
+	border-radius: 30px;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 500px;
+}
+
+form > div {
+	border-radius: 10px;
+}
+
+#bifat {
+	width: 15px;
+}
+
+#accept {
+	background-color: transparent;
+	color: black;
+}
+.animat {
+	animation-name: rosu;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes rosu {
+  from {color: black;}
+  to {color: red;}
+}

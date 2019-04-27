@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+span {
+	background: blue;
+}
+html {
+	background: url(../imagini/fundal.jpg) no-repeat center center fixed;
+  	background-size: cover;
+}
+#mainwrapper header {
+	/*Header */
+	background-color: rgba(208,207,207,1.00);
+	overflow: auto;
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+#mainwrapper header #logo {
+	/* Company Logo text */
+	width: 28%;
+	float: left;
+	padding-left: 2%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: rgba(146,146,146,1.00);
+}
+#mainwrapper header #logo a>img {
+	width: 5%;
+	float: left;
+	margin-right: 25px;
+}
+#mainwrapper header nav {
+	/*Nav bar containing links in header */
+	text-align: right;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 2%;
+	width: 68%;
+	float: left;
+	color: rgba(146,146,146,1.00);
+}
+header nav a {
+	/* Links in header */
+	padding-right: 2%;
+}
+#content #mainContent h1, #content #mainContent h2 {
+	/* Styling for main headings */
+	color: rgba(146,146,146,1.00);
+}
+#content #mainContent h3 {
+	/*Captions of Taglines */
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146,146,146,1.00);
+}
+#content #mainContent #bannerImage {
+	/*Container for main banner image */
+	width: 100%;
+	background-color: rgba(208,207,207,1.00);
+}
+#content #mainContent p {
+	/* All paragraphs under maincontent */
+	background-color: white;
+	padding: 2%;
+	color: black;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	text-align: justify;
+}
+#content #mainContent #authorInfo {
+	/* Author info section */
+	background-color: rgba(208,207,207,1.00);
+}
+#content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
+	color: rgba(255,255,255,1.00);
+	padding-left: 2%;
+	padding-top: 11px;
+}
+#content #mainContent #authorInfo p {
+	background-color: rgba(208,207,207,1.00);
+	color: rgba(255,255,255,1.00);
+	padding-left: 2%;
+	padding-top: 0px;
+	padding-bottom: 11px;
+	padding-right: 2%;
+}
+#mainContent {
+	/* Container for the blog post in individal blog view */
+	padding-left: 2%;
+	float: left;
+	padding-right: 2%;
+	padding-top: 41px;
+}
+#mainwrapper {
+	/* Container of all content */
+	width: 80%;
+	overflow: auto;
+	margin-left: 10%;
+}
+nav ul li {
+	list-style-type: none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+nav ul {
+	padding-left: 0%;
+}
+nav ul li a {
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}
+#mainContent #bannerImage img {
+	/* Actual banner image */
+	width: 100%;
+}
+#sidebar #adimage img {
+	/* Image in sidebar */
+	width: 100%;
+	float: left;
+}
+#mainwrapper header nav a {
+	/* Links in header */
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}
+/* Tablet view */
+@media screen and (max-width:769px) {
+#mainContent {
+	/* Container for the blog post */
+	padding-top: 0px;
+	float: none;
+	width: 96%;
+}
+#mainwrapper header {
+	/* Header */
+	width: 100%;
+}
+}
+/* Mobile view */
+@media screen and (max-width:480px) {
+#mainwrapper header #logo {
+	/* Company Logo text in header */
+	width: 96%;
+	margin-left: 2%;
+}
+#mainwrapper header nav {
+	/*navigation links in header */
+	text-align: center;
+	background-color: rgba(255,255,255,1.00);
+	width: 98%;
+}
+#content #mainContent h3 {
+	/* Title under maincontent, if any */
+	font-size: 14px;
+}
+}
